@@ -1,0 +1,14 @@
+2017-07-04 10:15:24,481 INFO (StartupInfoLogger.java:48)- Starting Application on dell-PC with PID 19532 (E:\dev\spring-boot-api-project-seed-master\target\classes started by dell in E:\dev\spring-boot-api-project-seed-master)
+2017-07-04 10:15:24,485 DEBUG (StartupInfoLogger.java:51)- Running with Spring Boot v1.5.4.RELEASE, Spring v4.3.9.RELEASE
+2017-07-04 10:15:24,485 INFO (SpringApplication.java:597)- The following profiles are active: dev
+2017-07-04 10:15:29,933 INFO (StartupInfoLogger.java:57)- Started Application in 5.785 seconds (JVM running for 6.629)
+2017-07-04 10:15:55,109 INFO (UserController.java:68)- iammical a handsome man
+2017-07-04 10:15:55,970 DEBUG (BaseJdbcLogger.java:139)- ==>  Preparing: SELECT count(0) FROM user 
+2017-07-04 10:15:56,000 DEBUG (BaseJdbcLogger.java:139)- ==> Parameters: 
+2017-07-04 10:15:56,020 DEBUG (BaseJdbcLogger.java:139)- <==      Total: 1
+2017-07-04 10:15:56,023 DEBUG (BaseJdbcLogger.java:139)- ==>  Preparing: SELECT id,username,password,nick_name,sex,register_date FROM user limit ?,? 
+2017-07-04 10:15:56,024 DEBUG (BaseJdbcLogger.java:139)- ==> Parameters: 8(Integer), 4(Integer)
+2017-07-04 10:15:56,027 DEBUG (BaseJdbcLogger.java:139)- <==      Total: 2
+2017-07-04 10:15:56,086 INFO (UserController.java:77)- put cache with key:Page{count=true, pageNum=3, pageSize=4, startRow=8, endRow=12, total=10, pages=3, countSignal=false, orderBy='null', orderByOnly=false, reasonable=true, pageSizeZero=false}
+2017-07-04 10:15:57,073 INFO (UserController.java:68)- iammical a handsome man
+2017-07-04 10:15:57,076 INFO (UserController.java:73)- get cache with key:[com.company.project.model.User@55ecc2a8, com.company.project.model.User@2adfcfaa]
